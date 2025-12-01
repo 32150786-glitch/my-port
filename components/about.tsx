@@ -97,7 +97,7 @@ export function About() {
   // 기본 데이터
   const defaultInfo = {
     title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
+    subtitle: " ",
     background: {"image":"","video":"","color":"#000000","opacity":0.3},
     experienceCards: [{"icon":"graduation","title":"단국대학교 죽전캠퍼스","period":"2020 - 2026","description":"도시계획부동산학부 졸업"},{"icon":"award","title":"투자자산운용사","period":"2023.02","description":"금융상품·리스크·자산배분 이해 기반 분석"},{"icon":"trophy","title":"OPIC intermediate high","period":"2024","description":"비즈니스 분석·자료 리포팅 가능한 영어 능력"},{"icon":"lightbulb","title":"PF & 금융규제 데이터 분석 프로젝트","period":"2024","description":"설명을 입력하세요"}],
     skills: [{"icon":"lightbulb","title":"📌 부동산 금융분석 (Real Estate Finance)","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"lightbulb","title":"📊 데이터 분석 (Data Analytics)","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"lightbulb","title":"🏛 정책·규제 분석 (Policy & Regulation)","description":"DSR·LTV·DTI·가계부채 등 금융규제 효과 분석"},{"icon":"lightbulb","title":"🔍 시장·경제 분석 (Market Research)","description":"스킬 설명금리·거시지표·주택시장 동향 해석 및 리포트 작성"}],
