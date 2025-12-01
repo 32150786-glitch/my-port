@@ -33,17 +33,17 @@ export function Hero() {
   const { getData, saveData, isEditMode, saveToFile, saveFieldToFile } = useInlineEditor()
   
   // 초기 데이터 - 배열 형태로 변경
-  const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
+  const defaultSocialLinks = [{"name":"E-mail","icon":"mail","url":"gregory3559@naver.com"},{"name":"URL","icon":"globe","url":"my-port-gamma-wheat.vercel.app"}]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
+    greeting: " ",
     name: "김승환",
-    title: "단국대 도시계획부동산학부",
-    description: "프롭테크 기술로 부동산 시장을 분석합니다.",
+    title: "Real Estate Finance & Investment Analyst.",
+    description: "금융데이터 분석으로 부동산 시장의 변화를 읽습니다.",
     profileImage: "/uploads/hero-profile-1764572630638.jpg",
     backgroundImage: "",
     backgroundVideo: "",
-    backgroundOpacity: 0.1,
+    backgroundOpacity: 0.3,
     projectButton: "프로젝트 보기",
     background: {"image":"","video":"","color":"","opacity":0.1}
   }

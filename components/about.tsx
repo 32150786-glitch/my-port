@@ -98,13 +98,13 @@ export function About() {
   const defaultInfo = {
     title: "소개",
     subtitle: "당신의 전문성과 열정을 소개해주세요.",
-    background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    background: {"image":"","video":"","color":"#000000","opacity":0.3},
+    experienceCards: [{"icon":"graduation","title":"단국대학교 죽전캠퍼스","period":"2020 - 2026","description":"도시계획부동산학부 졸업"},{"icon":"award","title":"투자자산운용사","period":"2023.02","description":"금융상품·리스크·자산배분 이해 기반 분석"},{"icon":"trophy","title":"OPIC intermediate high","period":"2024","description":"비즈니스 분석·자료 리포팅 가능한 영어 능력"},{"icon":"lightbulb","title":"PF & 금융규제 데이터 분석 프로젝트","period":"2024","description":"설명을 입력하세요"}],
+    skills: [{"icon":"lightbulb","title":"📌 부동산 금융분석 (Real Estate Finance)","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"lightbulb","title":"📊 데이터 분석 (Data Analytics)","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"lightbulb","title":"🏛 정책·규제 분석 (Policy & Regulation)","description":"DSR·LTV·DTI·가계부채 등 금융규제 효과 분석"},{"icon":"lightbulb","title":"🔍 시장·경제 분석 (Market Research)","description":"스킬 설명금리·거시지표·주택시장 동향 해석 및 리포트 작성"}],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    story: ["저는 부동산 금융을 데이터로 분석하고, 시장·정책·리스크를 연결해 해석하는 투자자산 분석& 운용 전문가를 목표로 하고 있습니다.","PF 부실화와 은행 건전성 유기성 분석,\n2021년 DSR 규제 강화의 실증분석 등\n다양한 프로젝트를 수행하며 실제 금융 현장에서 다루는 문제들을 데이터 기반으로 풀어내는 경험을 쌓았습니다.","이 과정에서 단순한 이론이나 보고서 작성이 아니라,\n실제 금융기관이 마주하는 리스크 구조·정책 변화·시장 반응을\n정확하게 이해하고 설명하는 능력의 중요성을 깨달았습니다.","앞으로도 PF 구조, 규제, 시장 데이터를 더 깊이 연구하여\n‘숫자로 말하는 부동산 금융 전문가’로 성장하고자 합니다."],
+    storyImage: "/uploads/about-image-1764599974140.jpg",
+    hobbies: ["✈️ 여행"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

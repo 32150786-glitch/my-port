@@ -34,14 +34,14 @@ export function Contact() {
   
   // 기본 데이터
   const defaultInfo = {
-    name: "당신의 이름",
-    title: "직책/직무",
+    name: "김승환",
+    title: "부동산 금융·데이터 분석",
     company: "",
-    experience: "3년 경력",
-    phone: "010-0000-0000",
-    email: "your-email@example.com",
-    website: "",
-    location: "당신의 위치",
+    experience: "",
+    phone: "010-25993559",
+    email: "gregory3559@naver.com",
+    website: "my-port-gamma-wheat.vercel.app",
+    location: "하남시,경기도",
     workTime: "평일 09:00 - 18:00",
     responseTime: "24시간 이내 응답",
     sectionTitle: "연락처",

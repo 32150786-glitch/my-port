@@ -14,16 +14,11 @@ export function Projects() {
   // 기본 데이터
   const defaultInfo = {
     title: "프로젝트",
-    subtitle: "프로젝트",
-    initialDisplay: 6,
-    loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    subtitle: "진행했던 프로젝트를 소개합니다.",
+    initialDisplay: 5,
+    loadMoreCount: 1,
+    background: {"image":"","video":"","color":"#000000","opacity":0.1},
+    projects: [{"image":"/uploads/project-1764600410840-1764600410858.jpg","video":"","title":"DSR 규제 강화의 실증적 효과 분석","description":"2020.01~2024.02 월별 데이터를 사용해 DSR 규제 도입과 금리 인상이 주택담보대출, 가계부채, 주택가격, 거래량에 미친 영향을 분석.\n"},{"image":"/uploads/project-1764600527962-1764600528102.jpg","video":"","title":"IRR ATCF 분석","description":"부동산 개발사업의 연도별 Cash Flow를 구성한 뒤,\n초기 투자금·운영수익·매각가치를 반영해 IRR(Internal Rate of Return)을 산출\n감가상각, 부채이자, 세율 등을 고려한 **ATCF(After-Tax Cash Flow, 세후 현금흐름)**를 계산하여,\n단순 수익률이 아닌 실제 투자자의 세후 기준 실질 수익성을 평가"},{"image":"/uploads/project-1764600632891-1764600633006.jpg","video":"","title":"Impact of PF Deterioration on Bank Soundness – Time Series & VAR Analysis","description":"2020~2024년 분기 데이터를 바탕으로 PF 연체율·PF 잔액·금리·GDP 등이 BIS 비율·NPL 등 건전성 지표에 미치는 영향을 시중은행과 저축은행으로 나누어 비교 분석. \n시계열 분석(ADF, VAR, IRF, FEVD), 회귀·인과관계 분석, 금융건전성 지표 해석"},{"image":"/uploads/project-1764600770969-1764600770977.jpg","video":"","title":" PF Structure Review","description":"한화가 주도하는 서울역 북부 역세권 복합개발의 PF 구조를 분석. 선·중·후순위 대출, 분양 트랜치, 대기업 신용보강 등 실제 딜 구조를 정리하고, 공공·민간 협력형 PF의 장단점을 평가."},{"image":"/uploads/project-1764600826305-1764600826317.jpg","video":"","title":"여의도 파크원 오피스타워 PF 리스크 분석","description":"국내 최대급 상업용 복합개발인 여의도 파크원 오피스타워 프로젝트를 사례로, PFV·SPC 구조, 선·중·후순위 트랜치, 브릿지론·리파이낸싱 전략 등을 분석하고, 금리·유동성·운영·시장 리스크를 체계적으로 분류."}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
